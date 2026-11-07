@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-11-07 13:37:16",
+    "trade": {
+      "code": "005930",
+      "name": "삼성전자",
+      "buy_time": "10:15:00",
+      "buy_price": 58000,
+      "sell_time": "10:38:20",
+      "sell_price": 56750,
+      "qty": 8,
+      "profit_rate": -2.16,
+      "loss_amount": -10000,
+      "max_price_after_buy": 58100,
+      "entry_volume_ratio": 0.58,
+      "kospi_change": -0.4,
+      "entry_surge_rate": 1.8
+    },
+    "diagnosis_type": "거래량 미달 가짜 돌파 (Fakeout / Bull Trap)",
+    "cause_summary": "돌파 시점 거래량이 직전 평균 대비 58% 수준으로 후속 매수세가 붙지 않아 상단 매물벽에 즉시 반락했습니다.",
+    "countermeasure": "변동성 돌파 기준선 통과 시, 최소 거래량 충족 기준을 기존 80%에서 120%로 상향하여 확실한 수급 유입 시에만 진입하도록 보완합니다.",
+    "rule_applied": {
+      "min_volume_ratio": 1.2
+    }
+  }
+]
