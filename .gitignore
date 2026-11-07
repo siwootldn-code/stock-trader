@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+token_*.json
+trade_log.txt
+simulation_trade_log.txt
+.env
